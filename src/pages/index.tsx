@@ -1,11 +1,14 @@
-import { Inter } from 'next/font/google'
+import { Inter } from "next/font/google";
+import Navbar from "@/components/layouts/Navbar";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
-     <div>Hello annisa rahmadani</div>
+      
+      <div>Hello annisa rahmadani</div>
+      <div>this is a new series</div>
     </>
-  )
+  );
 }
