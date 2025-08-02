@@ -5,7 +5,7 @@ import AppShell from "@/components/layouts/AppShell";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <AppShell>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </AppShell>
   );
 }
