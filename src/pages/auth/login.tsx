@@ -1,13 +1,9 @@
-import Link from "next/link";
+import LoginView from "@/views/auth/login";
 function LoginPage() {
   return (
-    <div>
-      <h1>LoginPage</h1>
-      <p>
-        Belum punya akun?
-        <Link href={"/auth/register"}>disini</Link>
-      </p>
-    </div>
+    <>
+      <LoginView />
+    </>
   );
 }
 

@@ -1,9 +1,8 @@
-import React from "react";
-
+import style from "./Navbar.module.css";
 const index = () => {
   return (
-    <div className="navbar">
-      <div>Navbar</div>
+    <div className={style.navbar}>
+      <div className="big">Navbar</div>
     </div>
   );
 };
